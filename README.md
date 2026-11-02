@@ -14,10 +14,9 @@
 ## ✨ Features
 
 - 🔊 **Opus** 48 kHz mono, 20 ms frames (pure-Java [Concentus](https://github.com/lostromb/concentus), no NDK needed)
-- 👥 **Multi-user mixer** with a per-speaker jitter buffer
 - 🫧 **Floating overlay** with mute and disconnect, drawn over other apps
 - 🌙 **Dark Compose UI** with a live mic level meter
-- 🔗 **Deep links:** `pekora-player://` and `pekora-studio://`
+- 🔗 **Deep links:** `pekora-player://`
 
 ## 📋 Requirements
 
@@ -83,7 +82,6 @@ app/src/main/java/pro/pekora/voice/
 | UI / theme | `MainActivity.kt`, `RobloxTheme.kt` |
 | Package / app name | `app/build.gradle`, `AndroidManifest.xml`, `strings.xml` |
 
-Reverse-engineering notes are in [`docs/`](docs/).
 
 ---
 
